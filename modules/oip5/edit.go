@@ -9,13 +9,13 @@ import (
 	"sync"
 
 	"github.com/azer/logger"
+	"github.com/bitspill/proto/go/pb_oip"
+	"github.com/bitspill/proto/go/pb_oip5"
+	"github.com/bitspill/proto/go/pb_oip5/pb_templates"
 	patch "github.com/bitspill/protoPatch"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/oipwg/proto/go/pb_oip"
-	"github.com/oipwg/proto/go/pb_oip5"
-	"github.com/oipwg/proto/go/pb_oip5/pb_templates"
 	"gopkg.in/olivere/elastic.v6"
 
 	"github.com/oipwg/oip/datastore"

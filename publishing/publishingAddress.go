@@ -15,9 +15,9 @@ import (
 	"github.com/bitspill/flod/wire"
 	"github.com/bitspill/flosig"
 	"github.com/bitspill/floutil"
+	"github.com/bitspill/proto/go/pb_oip"
+	"github.com/bitspill/proto/go/pb_oip5"
 	"github.com/golang/protobuf/proto"
-	"github.com/oipwg/proto/go/pb_oip"
-	"github.com/oipwg/proto/go/pb_oip5"
 )
 
 const MaxFloDataLen = 1040

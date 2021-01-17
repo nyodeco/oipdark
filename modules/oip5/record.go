@@ -8,12 +8,12 @@ import (
 	"errors"
 
 	"github.com/azer/logger"
+	"github.com/bitspill/proto/go/pb_oip5"
+	"github.com/bitspill/proto/go/pb_oip5/pb_templates"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/oipwg/proto/go/pb_oip5"
-	"github.com/oipwg/proto/go/pb_oip5/pb_templates"
 	"github.com/spf13/viper"
 	"gopkg.in/olivere/elastic.v6"
 

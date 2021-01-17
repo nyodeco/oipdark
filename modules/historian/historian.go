@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/azer/logger"
+	"github.com/bitspill/proto/go/pb_historian"
+	"github.com/bitspill/proto/go/pb_oip"
 	"github.com/golang/protobuf/proto"
 	"github.com/gorilla/mux"
-	"github.com/oipwg/proto/go/pb_historian"
-	"github.com/oipwg/proto/go/pb_oip"
 	"gopkg.in/olivere/elastic.v6"
 
 	"github.com/oipwg/oip/datastore"
